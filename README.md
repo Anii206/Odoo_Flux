@@ -222,7 +222,7 @@ Detailed documentation is available in the `docs/` folder:
 - [Security Model](file:///C:/nan/odoo/docs/SECURITY.md): RBAC matrix, audit findings, fixed issues, and production checklist.
 - [Testing Guide](file:///C:/nan/odoo/docs/TESTING.md): End-to-end test instructions, verified test counts, and benchmark numbers.
 - [Demo Script](file:///C:/nan/odoo/docs/DEMO_SCRIPT.md): 10-minute video presentation script with timestamps, spoken words, screen actions, and FAQ.
-- [Walkthrough Video (demo.mp4)](demo.mp4): Complete 8-minute end-to-end system walkthrough video.
+- [Walkthrough Video (vid.mp4)](vid.mp4): Complete 8-minute end-to-end system walkthrough video.
 
 ## Known Limitations
 
