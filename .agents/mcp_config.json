@@ -1,0 +1,66 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "@playwright/mcp"
+      ]
+    },
+    "chrome-devtools": {
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "chrome-devtools-mcp"
+      ]
+    },
+    "browser-tools": {
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "@agentdeskai/browser-tools-mcp"
+      ]
+    },
+    "context7": {
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "@upstash/context7-mcp"
+      ]
+    },
+    "postgres": {
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres:postgres@localhost:5432/brightloop"
+      ]
+    },
+    "vibium": {
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "vibium",
+        "mcp"
+      ]
+    }
+  }
+}

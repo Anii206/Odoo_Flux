@@ -1,0 +1,40 @@
+# Rust
+target/
+backend/target/
+**/*.rs.bk
+
+# Node.js / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Secrets
+backend/.env
+.env
+**/.env.local
+**/.env.*.local
+*.pem
+*.key
+
+# Python / Pytest / Playwright
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+test-results/
+playwright-report/
+.playwright/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log

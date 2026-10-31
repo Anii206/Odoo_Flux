@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --geist-bg: #ffffff;
+  --geist-card: #fafafa;
+  --geist-hover: #f4f4f5;
+  --geist-border: #eaeaea;
+  --geist-border-focus: #000000;
+  --geist-text: #171717;
+  --geist-secondary: #666666;
+  --geist-muted: #888888;
+  --geist-accent: #000000;
+}
+
+.dark {
+  --geist-bg: #000000;
+  --geist-card: #0a0a0a;
+  --geist-hover: #111111;
+  --geist-border: #222222;
+  --geist-border-focus: #ffffff;
+  --geist-text: #ededed;
+  --geist-secondary: #888888;
+  --geist-muted: #555555;
+  --geist-accent: #ffffff;
+}
+
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  body {
+    background-color: var(--geist-bg);
+    color: var(--geist-text);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  table, .tabular, [data-tabular], .font-mono {
+    font-variant-numeric: tabular-nums;
+  }
+
+  input, select, textarea {
+    color-scheme: dark;
+  }
+}
+
+/* Vercel minimalist hairline borders and zero fuzzy box shadows */
+.vercel-card {
+  background-color: var(--geist-card);
+  border: 1px solid var(--geist-border);
+}
+
+.vercel-card:hover {
+  border-color: #333333;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
